@@ -8,15 +8,38 @@ use DateTimeImmutable;
 
 class TimeRanger
 {
-    private DateTimeImmutable $foo;
+    private DateTimeImmutable $start;
+    private DateTimeImmutable $end;
 
-    public function __construct(DateTimeImmutable $foo)
+    /**
+     * @param DateTimeImmutable $start
+     * @param DateTimeImmutable $end
+     * @throws TimeRangerException
+     */
+    public function __construct(DateTimeImmutable $start, DateTimeImmutable $end)
     {
-        $this->foo = $foo;
+        if ($end < $start) 
+        {
+            throw new TimeRangerException('start is bigger than end');
+        }
+        
+        $this->start = $start;
+        $this->end = $end;
     }
-    
-    public function getFoo(): DateTimeImmutable
+
+    /**
+     * @return DateTimeImmutable
+     */
+    public function getStart(): DateTimeImmutable
     {
-        return $this->foo;
+        return $this->start;
+    }
+
+    /**
+     * @return DateTimeImmutable
+     */
+    public function getEnd(): DateTimeImmutable
+    {
+        return $this->end;
     }
 }
