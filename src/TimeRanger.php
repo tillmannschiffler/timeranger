@@ -19,6 +19,4 @@ class TimeRanger
     {
         return $this->foo;
     }
-    
-    
 }
