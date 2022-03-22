@@ -4,19 +4,18 @@ declare(strict_types=1);
 
 namespace timeranger;
 
+use DateTimeImmutable;
+
 class TimeRanger
 {
-    private string $foo;
+    private DateTimeImmutable $foo;
 
-    public function __construct(string $foo)
+    public function __construct(DateTimeImmutable $foo)
     {
         $this->foo = $foo;
     }
-
-    /**
-     * @return string
-     */
-    public function getFoo(): string
+    
+    public function getFoo(): DateTimeImmutable
     {
         return $this->foo;
     }
