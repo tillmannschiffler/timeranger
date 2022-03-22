@@ -1,0 +1,17 @@
+{
+    "name": "tillschiff/timeranger",
+    "autoload": {
+        "psr-4": {
+            "timeranger\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "email": "tillmann.schiffler@gmail.com",
+            "name": "Tillmann Schiffler"
+        }
+    ],
+    "require": {
+        "php": "8.1.*"
+    }
+}
