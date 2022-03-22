@@ -1,5 +1,6 @@
 {
     "name": "tillschiff/timeranger",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "timeranger\\": "src/"
