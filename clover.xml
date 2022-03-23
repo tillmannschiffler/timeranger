@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1648029064">
+  <project timestamp="1648029064">
+    <file name="/var/www/html/src/TimeRanger.php">
+      <class name="timeranger\TimeRanger" namespace="global">
+        <metrics complexity="12" methods="7" coveredmethods="6" conditionals="0" coveredconditionals="0" statements="17" coveredstatements="14" elements="24" coveredelements="20"/>
+      </class>
+      <line num="19" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="12"/>
+      <line num="21" type="stmt" count="12"/>
+      <line num="23" type="stmt" count="10"/>
+      <line num="24" type="stmt" count="10"/>
+      <line num="33" type="method" name="overlap" visibility="public" complexity="3" crap="3" count="5"/>
+      <line num="35" type="stmt" count="5"/>
+      <line num="37" type="stmt" count="3"/>
+      <line num="40" type="stmt" count="2"/>
+      <line num="49" type="method" name="equals" visibility="public" complexity="3" crap="3" count="2"/>
+      <line num="51" type="stmt" count="2"/>
+      <line num="53" type="stmt" count="1"/>
+      <line num="56" type="stmt" count="1"/>
+      <line num="62" type="method" name="createYesterday" visibility="public" complexity="1" crap="2" count="0"/>
+      <line num="64" type="stmt" count="0"/>
+      <line num="65" type="stmt" count="0"/>
+      <line num="66" type="stmt" count="0"/>
+      <line num="78" type="method" name="ensureRangeIsValid" visibility="private" complexity="2" crap="2" count="12"/>
+      <line num="80" type="stmt" count="12"/>
+      <line num="82" type="stmt" count="10"/>
+      <line num="85" type="stmt" count="2"/>
+      <line num="91" type="method" name="getStart" visibility="public" complexity="1" crap="1" count="8"/>
+      <line num="93" type="stmt" count="8"/>
+      <line num="99" type="method" name="getEnd" visibility="public" complexity="1" crap="1" count="8"/>
+      <line num="101" type="stmt" count="8"/>
+      <metrics loc="103" ncloc="69" classes="1" methods="7" coveredmethods="6" conditionals="0" coveredconditionals="0" statements="17" coveredstatements="14" elements="24" coveredelements="20"/>
+    </file>
+    <file name="/var/www/html/src/TimeRangerException.php">
+      <class name="timeranger\TimeRangerException" namespace="global">
+        <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </class>
+      <metrics loc="12" ncloc="12" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+    </file>
+    <metrics files="2" loc="115" ncloc="81" classes="1" methods="7" coveredmethods="6" conditionals="0" coveredconditionals="0" statements="17" coveredstatements="14" elements="24" coveredelements="20"/>
+  </project>
+</coverage>
