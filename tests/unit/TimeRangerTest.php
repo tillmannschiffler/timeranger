@@ -39,6 +39,14 @@ class TimeRangerTest extends TestCase
         );
     }
 
+    public function testCanCreateYesterday(): void
+    {
+        $this->assertInstanceOf(
+            TimeRanger::class,
+            TimeRanger::createYesterday()
+        );   
+    }
+
     public function testCanReturnsTrueOnEquals(): void
     {
         $rangeA = new TimeRanger(
